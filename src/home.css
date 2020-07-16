@@ -1,0 +1,252 @@
+.App-logo {
+  width: 8%;
+  height:4%px;
+  background-position: fixed;
+  padding-left: 3%;
+}
+.heading1{
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+
+.space{
+  padding-right: 29%;
+  padding-left: 3%;
+}
+.details{
+  padding-top: 1%;
+  padding-left: 2%;
+  background-color: gainsboro;
+  width:100%
+}
+
+.name{
+  color:#0e77bb;
+  text-align: left;
+  font-weight: bold;
+}
+.det{
+  color:black;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 10%;
+}
+.det1{
+  color:black;
+  text-align: left;
+  font-weight: bold;
+ 
+}
+.det2{
+  color:black;
+  
+  font-weight: bold;
+  text-align: left;
+ 
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.x{
+  color:black;
+}
+.tab{
+  background-color: gainsboro;
+  
+}
+
+.tablink {
+  background-color:#0e77bb;
+  color: white;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 45%;
+}
+.tablinkf {
+  background-color:#0e77bb;
+  color: white;
+  border-radius: 35%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 100%;
+}
+.tablinkf:hover {
+  background-color: black;
+}
+
+.tablink1 {
+  background-color:#0e77bb;
+  color: white;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 10%;
+}
+.tablinkft {
+  background-color: gray;
+  color: white;
+  border-radius: 30%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 100%;
+}
+.tablinkff{
+  color:#0e77bb;
+  border-radius: 20%;
+  border-color: #0e77bb;
+  background-color: white;
+  cursor: pointer;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 100%;
+}
+
+.tablink1:hover {
+  background-color: gray;
+}
+
+.tablink:hover {
+  background-color: black;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+span{
+  padding-left: 1%;
+}
+.end{
+  padding-left: 3%;
+}
+.ending{
+  border:3px solid gainsboro;
+  width: 150%;
+}
+.selected{
+  border: none;
+  background-color: rgb(196, 185, 185);
+  color: white;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 10%;
+}
+.ending1{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 0.5%;
+}
+
+table, th, td {
+  padding: 15px;
+  text-align: center;
+  border-collapse: collapse;
+  
+}
+.y{
+  border-left: none;
+}
+.z{
+  border-right: none;
+}
+#too1 th,td{
+  
+  font-weight: bold;
+  text-align: center;
+  border:1px solid black;
+  border-top: none;
+  border-bottom: none;
+  
+}
+#too1 table, td{
+  color:#0e77bb;
+}
+
+#t01 table , td,th,tr{
+  
+  border:3px solid gainsboro;
+}
+
+#t01 td{
+  color: black;
+  font-weight: normal;
+}
+.py{
+  border-right: 3px solid gainsboro;
+  color:black;
+}
+.yp{
+  border-right: 3px solid gainsboro;
+}
+#t01 th {
+  background-color: #0e77bb;
+  border-left: none;
+  border-right: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+#col{
+  color: #0e77bb;
+}
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+.close-button {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+.close-button:hover {
+  background-color: darkgray;
+}
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
