@@ -3,18 +3,17 @@ import ReactDOM from 'react-dom';
 import './home.css'
 import logo from './logo.png'
 import Tabs from './Tabs';
+import Example from './modal';
 
 
 class HOME extends React.Component {
   
-
+  
   
  
     render() {
       return (
         <div className="App">
-           
-
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
@@ -80,8 +79,14 @@ class HOME extends React.Component {
             <br/>
           </div>
           </div>
+          <br/><br/>
+          
+          <Example/>
+          <br/>
           </div>
+          
 
+           
 
 
           <div className="end">
