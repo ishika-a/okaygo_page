@@ -50,7 +50,7 @@
   height: 3px;
   width: 3px;
   background-color: black;
-  border-radius: 50%;
+  border-radius: 100%;
   display: inline-block;
   padding-bottom : 1%;
 }
@@ -140,6 +140,7 @@ span{
 .ending{
   border:3px solid gainsboro;
   width: 100%;
+  padding-top: none;
   overflow: auto;
 }
 .selected{
@@ -150,6 +151,13 @@ span{
   padding: 8px 3px;
   font-size: 17px;
   width: 10%;
+}
+.tabc{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 50%;
+  font-weight: bold;
+
 }
 .ending1{
   padding-top: 5%;
@@ -211,43 +219,38 @@ table, th, td {
   text-align: center;
 }
 
-.modal {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  visibility: hidden;
-  transform: scale(1.1);
-  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+
+.tab-list {
+  
+  padding-left: 0;
 }
-.modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 1rem 1.5rem;
-  width: 24rem;
-  border-radius: 0.5rem;
-}
-.close-button {
-  float: right;
-  width: 1.5rem;
-  line-height: 1.5rem;
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
   text-align: center;
+  
+  background-color:#0e77bb;
+  color: white;
+  overflow: auto;
+  border: none;
+  outline: none;
   cursor: pointer;
-  border-radius: 0.25rem;
-  background-color: lightgray;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 10%;
 }
-.close-button:hover {
-  background-color: darkgray;
+
+.tab-list-active {
+  background-color: rgb(196, 185, 185);
+  border: none;
+  overflow: auto;
+  color: white;
+  padding: 8px 3px;
+  font-size: 17px;
+  width: 10%;
+  text-align: center;
 }
-.show-modal {
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1.0);
-  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
-}
+
+
+  
