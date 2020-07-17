@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './home.css'
 import logo from './logo.png'
+import Tabs from './Tabs';
 
 
 class HOME extends React.Component {
-    
+  
+
+  
+ 
     render() {
       return (
         <div className="App">
+           
 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -81,10 +86,9 @@ class HOME extends React.Component {
 
           <div className="end">
             <br/><br/>
-            <button className="selected" id="defaultOpen">Applied Jobs </button>
-            <span>
-            <button class="tablink1"  >Matched Jobs</button></span>
-            <span><button class="tablink1"  >Other Jobs</button></span>
+
+            <Tabs>
+            <div label="Applied Jobs">
             <div className="ending">
             <div className="ending1">
               
@@ -189,10 +193,25 @@ class HOME extends React.Component {
             </div>
             
             </div>
+            </div>
+            
+            <div className="tablink1"  label="Matched Jobs">
+            <div className="ending">
+            <div className="tabc">Hey there!!</div>
+            </div>
+            </div>
+            <div className="tablink1" label="Other Jobs">
+            <div className="ending">
+            <div className="tabc">Hello!!</div>
+            </div>
+            </div>
+            </Tabs>
+            
+            
           </div>
            
 
-
+        <br/><br/>
 
 
 
@@ -204,5 +223,7 @@ class HOME extends React.Component {
     }
   }
   
-  ReactDOM.render(<HOME />, document.getElementById('root'));
+const container = document.createElement('div');
+document.body.appendChild(container);
+ReactDOM.render(<HOME />, document.getElementById('root'));
   
