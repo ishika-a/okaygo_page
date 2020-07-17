@@ -47,11 +47,12 @@
  
 }
 .dot {
-  height: 6px;
-  width: 6px;
+  height: 3px;
+  width: 3px;
   background-color: black;
   border-radius: 50%;
   display: inline-block;
+  padding-bottom : 1%;
 }
 .x{
   color:black;
@@ -129,12 +130,6 @@
 }
 
 /* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
 span{
   padding-left: 1%;
 }
