@@ -31,7 +31,7 @@ class HOME extends React.Component {
         <table className="t02">
             <tr>
               <td className="name">Sameer Sharma (9987204729)</td>
-              <td className="det">Current Status: App installed</td>
+              <td className="det">Current Status: App installed <span class="dot"></span> Onboard </td>
             </tr>
             <tr>
               <td className="det1"><b>Prep Chef at Sushi Junction <span class="dot"></span> Fresher <span class="dot"></span> Gurgaon </b> </td>
